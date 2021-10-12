@@ -28,6 +28,9 @@ html {
   
   
   */ 
+  .web-page{
+      height: fit-content;
+  }
   .page{
     height: 100vw;
   }
