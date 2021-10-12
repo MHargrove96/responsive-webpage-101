@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*
+  
+  
+  Dont worry about the above. 
+  
+  
+  */ 
+  .page{
+    height: 100vw;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: 400px 1fr;
+    height: 100vw;
+    border: 5px solid white;
+  }
+  .welcome{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #2bcec0;
+    font-size: 55px;
+    color: white;
+  }
+  .content{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    
+  }
+  .demobox-1{
+    margin: 0 auto;
+    background-color: #33a8dd;
+    width: 225px;
+    height: 35px;
+    margin-top: 50px;
+  }
+  .title-1{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    font-size: 45px;
+    color: white; 
+  }
+  .text-c1{
+      margin: 0 auto;
+      width: 225px;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+  }
+  .demobox-2{
+    margin: 0 auto;
+    background-color: #f46831;
+    width: 225px;
+    height: 35px;
+    margin-top: 50px; 
+  }
+  .title-2{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    font-size: 45px;
+    color: white; 
+  }
+  .text-c2{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .demobox-3{
+    margin: 0 auto;
+    background-color: #2bcec0;
+    width: 225px;
+    height: 35px;
+    margin-top: 50px; 
+  }
+  .title-3{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    font-size: 45px;
+    color: white; 
+  }
+  .text-c3{
+    margin: 0 auto;
+    width: 225px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  @media screen and (max-width: 576px) {
+    .content {
+      grid-template-columns: 1fr;
+      background-color: white;
+    }
+    .title-1{
+        color: black;
+    }
+    .text-c1{
+        color: black;
+    }
+    .title-2{
+        color: black;
+    }
+    .text-c2{
+        color: black;
+    }
+    .title-3{
+        color: black;
+    }
+    .text-c3{
+        color: black;
+    }
+  }
