@@ -28,10 +28,7 @@ html {
   
   
   */ 
-  .web-page{
-      height: 810px;
-  }
-  .page{
+    .page{
     height: 100vw;
   }
   .container{
